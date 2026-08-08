@@ -1,5 +1,7 @@
 # A Tutorial for MIMO Modal Identification via FRVF
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21849968.svg)](https://doi.org/10.5281/zenodo.21849968)
+
 **Authors:** Gabriele Dessena¹, Marco Civera², Beatrice E. Bauret Martínez¹
 
 ¹ Department of Aerospace Engineering, Universidad Carlos III de Madrid, Spain
@@ -69,4 +71,8 @@ The original code in this repository (root `.m` files and `Utilities/`) is relea
 
 ## Repository Citation
 
-B. E. Bauret Martínez, G. Dessena, M. Civera, and O. E. Bonilla-Manrique, "Enhanced input stacking for non-square MIMO modal identification of aeronautical structures via Fast and Relaxed Vector Fitting," [arXiv:2605.16037](https://arxiv.org/abs/2605.16037), 2026. Preprint.
+G. Dessena, M. Civera, and B. E. Bauret Martínez, A Tutorial for MIMO Modal Identification via FRVF. (Aug. 08, 2026). Department of Aerospace Engineering, Universidad Carlos III de Madrid. doi: [10.5281/zenodo.21849968](https://doi.org/10.5281/zenodo.21849968).
+
+## Aknowledgements
+
+The Department of Aerospace Engineering at Universidad Carlos III de Madrid has been accredited as a Unit of Excellence "María de Maeztu", a distinction awarded by the Spanish State Research Agency for the period 01/01/2026-31/12/2031.
