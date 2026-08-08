@@ -27,7 +27,7 @@ This tutorial repository is structured after, and indebted to, [iLF-MIMO](https:
 | [`FRVF.m`](/FRVF.m) | Low-level Fast and Relaxed Vector Fitting engine (enhanced input stacking; wraps `vectfit3.m`) |
 | [`FRVF_id.m`](/FRVF_id.m) | Modal-parameter extraction from MIMO FRVF |
 | [`tutorial.mlx`](/tutorial.mlx) | MATLAB Live Script walking through the noiseless Section III beam case end-to-end, in MATLAB live-document format |
-| [`tutorial.pdf`](/tutorial.mlx) | The above exported in a PDF document |
+| [`tutorial.pdf`](/tutorial.pdf) | The above exported in a PDF document |
 | [`tutorial_plain.m`](/tutorial_plain.m) | The same tutorial as a classic, traditionally-commented `.m` script — for version control, screen readers, terminals, and MATLAB releases without Live Editor |
 | [`Utilities/lsce_fr.m`](/Utilities/lsce_fr.m) | Least-Squares Complex Exponential (LSCE) baseline identification (via MATLAB `modalfit`) |
 | [`Utilities/stabilisation_diagram.m`](/Utilities/stabilisation_diagram.m) | Stabilisation-diagram construction and order-by-order stability screening; interactive pole-picking is optional and off by default — both tutorials take the highest stable order automatically instead |
