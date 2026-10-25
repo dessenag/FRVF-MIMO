@@ -20,8 +20,6 @@ When using this code for your work or research please cite the following:
 
 The tutorial illustrates, via the **noiseless numerical beam case of Section III** of [1], the capability of Fast and Relaxed Vector Fitting (FRVF) — extended with an enhanced input-stacking strategy for non-square Multi-Input Multi-Output (MIMO) systems — to extract modal parameters from Ground-Vibration-Test-like data, benchmarked against the classical Least-Squares Complex Exponential (LSCE) method and screened via stabilisation diagrams that automatically retain the highest stable model order. It does not reproduce the noise-robustness sweep or the experimental BAE Systems Hawk T1A aircraft case of the preprint; for those, see [1] and its associated data/software repositories.
 
-This tutorial repository is structured after, and indebted to, [iLF-MIMO](https://github.com/dessenag/iLF-MIMO), the equivalent tutorial for the improved Loewner Framework (iLF).
-
 ## Repository Structure
 
 | Path | Description |
