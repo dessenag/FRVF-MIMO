@@ -5,6 +5,7 @@
 **Authors:** Gabriele Dessena¹, Marco Civera², Beatrice E. Bauret Martínez¹
 
 ¹ Department of Aerospace Engineering, Universidad Carlos III de Madrid, Spain
+
 ² Department of Structural, Geotechnical and Building Engineering, Politecnico di Torino, Italy
 
 This repo contains the code for the preprint:
@@ -45,8 +46,6 @@ MATLAB with the **Signal Processing Toolbox** (required by `lsce_fr.m` for `moda
 Open `tutorial.mlx` in MATLAB for the formatted live-document experience, or `tutorial_plain.m` for a plain script that runs identically. Running either from the repository root (or with the repository added to the path, which both do automatically via `addpath(genpath(...))`) reproduces Table I of [1] for the noiseless MIMO beam at the highest stable model order, the FRF-fit-quality plot at minimum order, and the stabilisation diagrams for both FRVF and LSCE.
 
 On first run, either tutorial (and `FRVF.m`, if called directly) will check for the third-party `vectfit3.m` dependency; if it isn't found, you'll be walked through downloading it — see **Licence** below.
-
-Both tutorials contain identical logic and call the same `Utilities/` functions (MATLAB's Live Editor does not support local function definitions in plain-text Live Code files, so the beam finite-element assembly and display helpers live there rather than at the bottom of either tutorial). `tutorial_plain.m` is complete and independently verified by running it end to end in MATLAB; `tutorial.mlx` is a genuine binary Live Script generated via MATLAB's own Editor (`matlab.desktop.editor.openDocument`/`saveAs`), independently checked by unzipping it and inspecting `matlab/document.xml` directly for correctly structured headings, bold text, equations, and the file/role table (rather than raw markup text).
 
 ## Licence
 
